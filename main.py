@@ -166,11 +166,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="MERCNET - биржа контрактов для наёмников",
-    description=(
-        "Закрытая сеть MERCNET: FastAPI + SQLAlchemy ORM + PostgreSQL Neon"
-    ),
-    version="1.0.0",
+    title="MERCNET",
     lifespan=lifespan,
 )
 
